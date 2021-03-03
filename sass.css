@@ -120,4 +120,11 @@ a:hover {
 .fas.fa-store {
   color: #9356DC;
 }
+
+.fas.fa-heart {
+  background: -webkit-linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /*# sourceMappingURL=sass.css.map */
