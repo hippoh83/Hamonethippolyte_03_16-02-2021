@@ -4,7 +4,8 @@
   "description": "Projet 3 OC : création d'un site  responsive, 100% mobile avec des animations CSS pro",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/sass.scss:./style.css --style compressed"
+    "sass": "sass --watch ./sass/sass.scss:./style.css",
+    "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed/"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/hippoh83/Hamonethippolyte_03_16-02-2021/issues"
   },
