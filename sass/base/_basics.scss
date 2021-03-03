@@ -1,0 +1,64 @@
+@import "../utils/variables";
+
+                                    /**stylisation polices d'écritures**/
+
+@font-face{
+    font-family:shrikhand;
+    src:url(../../font/Shrikhand-Regular.ttf);
+}
+@font-face{
+    font-family:roboto;
+    src:url(../../font/Roboto-Regular.ttf);
+}
+
+html {
+    font-size:$html-size;
+    font-family:roboto;
+}
+body{
+    width:100%;
+    margin:auto;
+}
+h1{
+    font-size:$h1;
+    font-weight:bold;
+    &.h1restaurant{
+        font-family:shrikhand;
+    }
+}
+h3{
+    font-size:$h3;
+    font-weight:bold;
+}
+p{
+    font-size:$p;
+}
+a{
+    text-decoration: none;
+    color:$black;
+    &:hover{
+        text-decoration:none;
+        color:$black;
+    }
+}
+                                            /**style logo**/
+.mheader__logo{
+    width: 180px;
+}
+.footerlogo{
+    font-family: shrikhand;
+}
+
+                                            /**style font-awesome icones**/
+
+
+.fas{
+    font-size:$html-size*1.1;
+    color:darken($lightgrey, 40%);
+    &.fa-map-marker-alt{
+        color:$black;
+    }
+    &.fa-store{
+        color:$primary-color;
+    }
+}
