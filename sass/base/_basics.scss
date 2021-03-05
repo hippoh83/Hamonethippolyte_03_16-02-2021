@@ -38,7 +38,9 @@ a{
     color:$black;
     &:hover{
         text-decoration:none;
-        color:$black;
+    }
+    &:visited{
+        text-decoration:none;
     }
 }
                                             /**style logo**/
@@ -62,10 +64,6 @@ a{
         color:$primary-color;
     }
     &.fa-heart{
-        background: -webkit-linear-gradient($primary-color, $secondary-color);
-        -webkit-background-clip: text;
-        background-clip: text;
-        
-        -webkit-text-fill-color: transparent;
+      color:$black;
     }
 }
