@@ -1,0 +1,29 @@
+.footer{
+    margin-top:50px;
+    background-color: darken($lightgrey, 80%);
+    color:$white;
+    .footerlogo{
+        font-size:1.1rem;
+        padding-top:20px;
+        padding-bottom:10px;
+    }
+    .fafooter{
+        font-size:12px;
+        padding-right: 14px;
+        &.fa-hands-helping{
+            transform:rotate(-8deg);
+            font-size:10px;
+            padding-right:11px;
+
+        }
+    }
+    p{
+        font-size:$h3*0.85;
+        padding-left:22px;
+        padding-top:8px;
+    }
+    &__contact{
+        padding-bottom:30px;
+    }
+
+}

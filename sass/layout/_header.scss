@@ -1,0 +1,17 @@
+.mheader{
+    width:100%;
+    height:70px;
+    background-color:$white;
+    margin:auto;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    &__logo{
+        margin-top:25px;
+    }
+    &__arrow{
+        margin-top:25px;
+    }
+
+
+}

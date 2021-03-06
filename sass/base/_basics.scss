@@ -46,6 +46,7 @@ a{
                                             /**style logo**/
 .mheader__logo{
     width: 180px;
+    height:auto;
 }
 .footerlogo{
     font-family: shrikhand;
@@ -65,5 +66,8 @@ a{
     }
     &.fa-heart{
       color:$black;
+    }
+    &.fafooter{
+        color:$white;
     }
 }
