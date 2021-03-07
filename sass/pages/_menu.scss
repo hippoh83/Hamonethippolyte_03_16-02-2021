@@ -1,4 +1,5 @@
 .restaurant{
+    position:relative;
     &__image{
         width:100%;
         height:300px;
@@ -18,7 +19,117 @@
         border-top-left-radius:50px;
         border-top-right-radius: 50px;
         margin-top:-50px;
+        padding-bottom:80px;
+        display:flex;
+        flex-direction:column;
+
+        
+        .rheader{
+            grid-column: 1/4;
+            grid-row:1/2;
+            align-self: center;
+            justify-self:center ;
+            padding-top:30px;
+            width:100%;
+            display:flex;
+            justify-content: center;
+            h1{
+                padding-right:50px;
+                margin-left:20px;
+            }
+            .heart{
+                width:25px;
+                height:25px;
+                margin-right:25px;
+                z-index: 1;
+            }
+        }
+       
+            
+        }
 
 
     }
+
+
+
+.menu{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:30px;
+    &__header{
+        align-self:flex-start;
+        padding-left:20px;
+        .underline{
+            margin-top:5px;
+            width:45px;
+            height:3px;
+            background-color: $tertiary-color;
+        }
+
+    }
+
+    &__list{
+        width:90%;
+        height:70px;
+        background-color: $white;
+        box-shadow: $shadow;
+        border-radius:15px;
+        margin-top:15px;
+        display:flex;
+
+        
+    }
+    .plats{
+        display:grid;
+        width:100%;
+        grid-template-columns: 90% 10%;
+        grid-template-rows: 50% 50%;
+        margin-right:20px;
+        h3{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            height:20px;
+            width:auto;
+            align-self: center;
+            padding-left:10px;
+            padding-top:3px;
+            @include ellipsis;
+        }
+        p{
+            grid-column:1/2;
+            grid-row:2/3;
+            align-self:baseline;
+            padding-left:10px;
+            @include ellipsis;
+            font-size:14px;
+
+        }
+        b{
+            grid-column:2/3;
+            grid-row:2/3;
+            align-self:baseline;
+            width:30px;
+        }
+
+    }
+    .spinningok{
+        width:20%;
+        height:100%;
+        background-color: $tertiary-color;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transform:translateX(0%);
+    }
+
+}
+.menubutton{
+    align-self:center;
+    margin-top:50px;
+    width:180px;
+    height:50px;
 }
