@@ -1,0 +1,24 @@
+.restaurant{
+    &__image{
+        width:100%;
+        height:300px;
+        position:relative;
+        
+        img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+            position:absolute;
+            z-index:-1;
+            
+        }
+    }
+    &__list{
+        background-color:$lightgrey;
+        border-top-left-radius:50px;
+        border-top-right-radius: 50px;
+        margin-top:-50px;
+
+
+    }
+}

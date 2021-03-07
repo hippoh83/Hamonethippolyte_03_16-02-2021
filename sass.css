@@ -133,6 +133,14 @@ a:visited {
   color: #fff;
 }
 
+.fas.faarrow {
+  color: black;
+}
+
+.fas.fa-check-circle {
+  color: #fff;
+}
+
 .heart {
   width: 100%;
   height: 100%;
@@ -266,10 +274,12 @@ a:visited {
 
 .mheader__arrow {
   margin-top: 25px;
+  position: absolute;
+  left: 20px;
+  top: 5px;
 }
 
 .footer {
-  margin-top: 50px;
   background-color: #262626;
   color: #fff;
 }
@@ -359,34 +369,43 @@ a:visited {
 
 .fonctionnement {
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33.333% 33.333% 33.333%;
+      grid-template-columns: 33.333% 33.333% 33.333%;
+  -ms-grid-rows: 20% 25% 25% 25%;
+      grid-template-rows: 20% 25% 25% 25%;
+  justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  height: 360px;
+  margin-top: 20px;
 }
 
 .fonctionnement__header {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  margin: 20px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .fonctionnement__list {
   background-color: #F2F2F2;
-  width: 320px;
+  width: 85%;
+  max-width: 370px;
   height: 70px;
   -webkit-box-shadow: 0px 4px 7px 0px #bfbfbf;
           box-shadow: 0px 4px 7px 0px #bfbfbf;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   margin-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -431,6 +450,33 @@ a:visited {
   left: -40px;
 }
 
+.fonctionnement__list--1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.fonctionnement__list--2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
+.fonctionnement__list--3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+}
+
 .restaurants {
   background-color: #F2F2F2;
   display: -webkit-box;
@@ -438,12 +484,13 @@ a:visited {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 40px;
+  padding-bottom: 50px;
 }
 
 .restaurants__header {
   margin: 20px;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 0px;
 }
 
@@ -563,5 +610,27 @@ a:visited {
     -webkit-transform: scale(0.996);
             transform: scale(0.996);
   }
+}
+
+.restaurant__image {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.restaurant__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.restaurant__list {
+  background-color: #F2F2F2;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top: -50px;
 }
 /*# sourceMappingURL=sass.css.map */
