@@ -51,12 +51,12 @@ table {
 /**stylisation polices d'écritures**/
 @font-face {
   font-family: shrikhand;
-  src: url(../../font/Shrikhand-Regular.ttf);
+  src: url(./font/Shrikhand-Regular.ttf);
 }
 
 @font-face {
   font-family: roboto;
-  src: url(../../font/Roboto-Regular.ttf);
+  src: url(./font/Roboto-Regular.ttf);
 }
 
 html {
@@ -716,53 +716,53 @@ a:visited {
 }
 
 .menu__list--1 {
-  -webkit-animation-delay: 594.66667ms;
-          animation-delay: 594.66667ms;
+  -webkit-animation-delay: 597ms;
+          animation-delay: 597ms;
 }
 
 .menu__list--2 {
-  -webkit-animation-delay: 798.33333ms;
-          animation-delay: 798.33333ms;
+  -webkit-animation-delay: 797ms;
+          animation-delay: 797ms;
 }
 
 .menu__list--3 {
-  -webkit-animation-delay: 999.33333ms;
-          animation-delay: 999.33333ms;
+  -webkit-animation-delay: 993.33333ms;
+          animation-delay: 993.33333ms;
 }
 
 .menu__list--4 {
-  -webkit-animation-delay: 1194ms;
-          animation-delay: 1194ms;
+  -webkit-animation-delay: 1199.66667ms;
+          animation-delay: 1199.66667ms;
 }
 
 .menu__list--5 {
-  -webkit-animation-delay: 1397ms;
-          animation-delay: 1397ms;
+  -webkit-animation-delay: 1398ms;
+          animation-delay: 1398ms;
 }
 
 .menu__list--6 {
-  -webkit-animation-delay: 1597ms;
-          animation-delay: 1597ms;
+  -webkit-animation-delay: 1596ms;
+          animation-delay: 1596ms;
 }
 
 .menu__list--7 {
-  -webkit-animation-delay: 1794ms;
-          animation-delay: 1794ms;
+  -webkit-animation-delay: 1799.33333ms;
+          animation-delay: 1799.33333ms;
 }
 
 .menu__list--8 {
-  -webkit-animation-delay: 1997.33333ms;
-          animation-delay: 1997.33333ms;
+  -webkit-animation-delay: 1996.66667ms;
+          animation-delay: 1996.66667ms;
 }
 
 .menu__list--9 {
-  -webkit-animation-delay: 2193.66667ms;
-          animation-delay: 2193.66667ms;
+  -webkit-animation-delay: 2194.66667ms;
+          animation-delay: 2194.66667ms;
 }
 
 .menu__list--10 {
-  -webkit-animation-delay: 2394.33333ms;
-          animation-delay: 2394.33333ms;
+  -webkit-animation-delay: 2397ms;
+          animation-delay: 2397ms;
 }
 
 .menu__list:hover .spinningok {
