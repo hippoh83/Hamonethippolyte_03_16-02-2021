@@ -11,7 +11,7 @@
     background: $gradient;
     color:$white;
     box-shadow:$shadow;
-    &:active{
+    &:hover{
         animation:button 100ms both;
         color:$white;
     }

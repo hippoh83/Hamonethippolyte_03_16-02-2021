@@ -161,7 +161,7 @@ a:visited {
           transform-origin: center;
 }
 
-.heart path:hover {
+.heart path:active {
   cursor: pointer;
   -webkit-animation: fill 750ms ease-in-out both;
           animation: fill 750ms ease-in-out both;
@@ -220,7 +220,7 @@ a:visited {
           box-shadow: 0px 4px 7px 0px #bfbfbf;
 }
 
-.button:active {
+.button:hover {
   -webkit-animation: button 100ms both;
           animation: button 100ms both;
   color: #fff;
@@ -716,33 +716,33 @@ a:visited {
 }
 
 .menu__list--1 {
-  -webkit-animation-delay: 597ms;
-          animation-delay: 597ms;
+  -webkit-animation-delay: 598.33333ms;
+          animation-delay: 598.33333ms;
 }
 
 .menu__list--2 {
-  -webkit-animation-delay: 797ms;
-          animation-delay: 797ms;
+  -webkit-animation-delay: 798.33333ms;
+          animation-delay: 798.33333ms;
 }
 
 .menu__list--3 {
-  -webkit-animation-delay: 993.33333ms;
-          animation-delay: 993.33333ms;
+  -webkit-animation-delay: 999.66667ms;
+          animation-delay: 999.66667ms;
 }
 
 .menu__list--4 {
-  -webkit-animation-delay: 1199.66667ms;
-          animation-delay: 1199.66667ms;
+  -webkit-animation-delay: 1194.66667ms;
+          animation-delay: 1194.66667ms;
 }
 
 .menu__list--5 {
-  -webkit-animation-delay: 1398ms;
-          animation-delay: 1398ms;
+  -webkit-animation-delay: 1396.66667ms;
+          animation-delay: 1396.66667ms;
 }
 
 .menu__list--6 {
-  -webkit-animation-delay: 1596ms;
-          animation-delay: 1596ms;
+  -webkit-animation-delay: 1593.33333ms;
+          animation-delay: 1593.33333ms;
 }
 
 .menu__list--7 {
@@ -751,31 +751,31 @@ a:visited {
 }
 
 .menu__list--8 {
-  -webkit-animation-delay: 1996.66667ms;
-          animation-delay: 1996.66667ms;
+  -webkit-animation-delay: 1993.33333ms;
+          animation-delay: 1993.33333ms;
 }
 
 .menu__list--9 {
-  -webkit-animation-delay: 2194.66667ms;
-          animation-delay: 2194.66667ms;
+  -webkit-animation-delay: 2197.33333ms;
+          animation-delay: 2197.33333ms;
 }
 
 .menu__list--10 {
-  -webkit-animation-delay: 2397ms;
-          animation-delay: 2397ms;
+  -webkit-animation-delay: 2396.33333ms;
+          animation-delay: 2396.33333ms;
 }
 
-.menu__list:hover .spinningok {
+.menu__list:active .spinningok {
   -webkit-transform: scaleX(1) translateX(-60px);
           transform: scaleX(1) translateX(-60px);
 }
 
-.menu__list:hover .spinningok i {
+.menu__list:active .spinningok i {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
-.menu__list:hover .plats {
+.menu__list:active .plats {
   width: 75%;
 }
 
