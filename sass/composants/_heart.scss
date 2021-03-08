@@ -17,7 +17,7 @@
         transform-origin: center;
 
         
-        &:active{
+        &:focus{
             cursor:pointer;
             animation: fill 750ms ease-in-out both;
         }

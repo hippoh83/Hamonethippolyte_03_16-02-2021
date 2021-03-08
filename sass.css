@@ -161,7 +161,7 @@ a:visited {
           transform-origin: center;
 }
 
-.heart path:active {
+.heart path:focus {
   cursor: pointer;
   -webkit-animation: fill 750ms ease-in-out both;
           animation: fill 750ms ease-in-out both;
@@ -535,7 +535,7 @@ a:visited {
   grid-row: 1/2;
 }
 
-.restaurants__list a:active {
+.restaurants__list a:focus {
   opacity: 0.8;
 }
 
@@ -716,66 +716,66 @@ a:visited {
 }
 
 .menu__list--1 {
-  -webkit-animation-delay: 598.33333ms;
-          animation-delay: 598.33333ms;
+  -webkit-animation-delay: 596.66667ms;
+          animation-delay: 596.66667ms;
 }
 
 .menu__list--2 {
-  -webkit-animation-delay: 798.33333ms;
-          animation-delay: 798.33333ms;
+  -webkit-animation-delay: 796ms;
+          animation-delay: 796ms;
 }
 
 .menu__list--3 {
-  -webkit-animation-delay: 999.66667ms;
-          animation-delay: 999.66667ms;
+  -webkit-animation-delay: 996.33333ms;
+          animation-delay: 996.33333ms;
 }
 
 .menu__list--4 {
-  -webkit-animation-delay: 1194.66667ms;
-          animation-delay: 1194.66667ms;
+  -webkit-animation-delay: 1197ms;
+          animation-delay: 1197ms;
 }
 
 .menu__list--5 {
-  -webkit-animation-delay: 1396.66667ms;
-          animation-delay: 1396.66667ms;
+  -webkit-animation-delay: 1393.66667ms;
+          animation-delay: 1393.66667ms;
 }
 
 .menu__list--6 {
-  -webkit-animation-delay: 1593.33333ms;
-          animation-delay: 1593.33333ms;
+  -webkit-animation-delay: 1595ms;
+          animation-delay: 1595ms;
 }
 
 .menu__list--7 {
-  -webkit-animation-delay: 1799.33333ms;
-          animation-delay: 1799.33333ms;
+  -webkit-animation-delay: 1797ms;
+          animation-delay: 1797ms;
 }
 
 .menu__list--8 {
-  -webkit-animation-delay: 1993.33333ms;
-          animation-delay: 1993.33333ms;
+  -webkit-animation-delay: 1997.33333ms;
+          animation-delay: 1997.33333ms;
 }
 
 .menu__list--9 {
-  -webkit-animation-delay: 2197.33333ms;
-          animation-delay: 2197.33333ms;
+  -webkit-animation-delay: 2199ms;
+          animation-delay: 2199ms;
 }
 
 .menu__list--10 {
-  -webkit-animation-delay: 2396.33333ms;
-          animation-delay: 2396.33333ms;
+  -webkit-animation-delay: 2398ms;
+          animation-delay: 2398ms;
 }
 
-.menu__list:active .spinningok {
+.menu__list:focus .spinningok {
   -webkit-transform: scaleX(1) translateX(-60px);
           transform: scaleX(1) translateX(-60px);
 }
 
-.menu__list:active .spinningok i {
+.menu__list:focus .spinningok i {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
-.menu__list:active .plats {
+.menu__list:focus .plats {
   width: 75%;
 }
 
