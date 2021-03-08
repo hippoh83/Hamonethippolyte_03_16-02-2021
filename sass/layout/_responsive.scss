@@ -1,0 +1,55 @@
+
+
+@media screen and (max-width:319px){
+    .menu__list{
+        &:hover .plats{
+            width:67%;
+        }
+        &:hover .spinningok{
+            width:74px;
+            transform:scaleX(1) translateX(-60px);
+            }
+
+    }
+
+}
+
+@media screen and (min-width:430px)and(max-width:1024px){
+
+.restaurant{
+    &__image{
+        height:440px;
+    }
+}
+
+    .menu__header{
+        align-self:center;
+    }
+
+
+}
+
+@media screen and (min-width:1024px){
+    .footer{
+        text-align: center;
+    }
+
+    .restaurant{
+    &__image{
+        height:500px;
+    }
+    
+    &__list{
+        display:grid;
+
+    }
+}
+    .menu__header{
+        align-self:center ;
+    }
+    .menubutton{
+        grid-column: 2/3;
+        justify-self: center;
+    }
+
+}
