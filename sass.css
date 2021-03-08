@@ -161,7 +161,13 @@ a:visited {
           transform-origin: center;
 }
 
-.heart path:focus {
+.heart path:hover {
+  cursor: pointer;
+  -webkit-animation: fill 750ms ease-in-out both;
+          animation: fill 750ms ease-in-out both;
+}
+
+.heart path:active {
   cursor: pointer;
   -webkit-animation: fill 750ms ease-in-out both;
           animation: fill 750ms ease-in-out both;
@@ -221,6 +227,12 @@ a:visited {
 }
 
 .button:hover {
+  -webkit-animation: button 100ms both;
+          animation: button 100ms both;
+  color: #fff;
+}
+
+.button:active {
   -webkit-animation: button 100ms both;
           animation: button 100ms both;
   color: #fff;
@@ -535,7 +547,11 @@ a:visited {
   grid-row: 1/2;
 }
 
-.restaurants__list a:focus {
+.restaurants__list a:active {
+  opacity: 0.8;
+}
+
+.restaurants__list a:hover {
   opacity: 0.8;
 }
 
@@ -716,13 +732,13 @@ a:visited {
 }
 
 .menu__list--1 {
-  -webkit-animation-delay: 596.66667ms;
-          animation-delay: 596.66667ms;
+  -webkit-animation-delay: 595ms;
+          animation-delay: 595ms;
 }
 
 .menu__list--2 {
-  -webkit-animation-delay: 796ms;
-          animation-delay: 796ms;
+  -webkit-animation-delay: 798.66667ms;
+          animation-delay: 798.66667ms;
 }
 
 .menu__list--3 {
@@ -731,23 +747,23 @@ a:visited {
 }
 
 .menu__list--4 {
-  -webkit-animation-delay: 1197ms;
-          animation-delay: 1197ms;
+  -webkit-animation-delay: 1195ms;
+          animation-delay: 1195ms;
 }
 
 .menu__list--5 {
-  -webkit-animation-delay: 1393.66667ms;
-          animation-delay: 1393.66667ms;
+  -webkit-animation-delay: 1396ms;
+          animation-delay: 1396ms;
 }
 
 .menu__list--6 {
-  -webkit-animation-delay: 1595ms;
-          animation-delay: 1595ms;
+  -webkit-animation-delay: 1596.33333ms;
+          animation-delay: 1596.33333ms;
 }
 
 .menu__list--7 {
-  -webkit-animation-delay: 1797ms;
-          animation-delay: 1797ms;
+  -webkit-animation-delay: 1797.66667ms;
+          animation-delay: 1797.66667ms;
 }
 
 .menu__list--8 {
@@ -756,26 +772,40 @@ a:visited {
 }
 
 .menu__list--9 {
-  -webkit-animation-delay: 2199ms;
-          animation-delay: 2199ms;
+  -webkit-animation-delay: 2195ms;
+          animation-delay: 2195ms;
 }
 
 .menu__list--10 {
-  -webkit-animation-delay: 2398ms;
-          animation-delay: 2398ms;
+  -webkit-animation-delay: 2394.33333ms;
+          animation-delay: 2394.33333ms;
 }
 
-.menu__list:focus .spinningok {
+.menu__list:hover .spinningok {
   -webkit-transform: scaleX(1) translateX(-60px);
           transform: scaleX(1) translateX(-60px);
 }
 
-.menu__list:focus .spinningok i {
+.menu__list:hover .spinningok i {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
-.menu__list:focus .plats {
+.menu__list:hover .plats {
+  width: 75%;
+}
+
+.menu__list:active .spinningok {
+  -webkit-transform: scaleX(1) translateX(-60px);
+          transform: scaleX(1) translateX(-60px);
+}
+
+.menu__list:active .spinningok i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.menu__list:active .plats {
   width: 75%;
 }
 
