@@ -1,6 +1,16 @@
 .footer{
     background-color: darken($lightgrey, 80%);
     color:$white;
+    a{
+        color:$white;
+        &:hover{
+            text-decoration: none;
+        }
+        &:active{
+            text-decoration: underline;
+        }
+    }
+    
     .footerlogo{
         font-size:1.1rem;
         padding-top:20px;

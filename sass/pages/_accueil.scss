@@ -126,7 +126,9 @@
 &__list{
     display:grid;
     width: 90%;
+    max-width:450px;
     height:250px;
+    transition: height 300ms ease-in-out;
     margin:auto;
     border-radius: 15px;
     box-shadow:$shadow;
@@ -166,9 +168,6 @@
         top:18px;
 
     }
-    &:active{
-        animation: scale 100ms ease-in both;
-    }
     &--nouveau{
         .new{
             position:absolute;
@@ -188,11 +187,3 @@
     }
 
 }}
-@keyframes scale{
-    0%{
-        transform:scale(1);
-    }
-    100%{
-        transform:scale(0.996);
-    }
-}
