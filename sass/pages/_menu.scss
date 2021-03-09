@@ -114,6 +114,7 @@
     .plats{
         display:grid;
         width:100%;
+        transform-origin:0% 50%;
         grid-template-columns: 90% 10%;
         grid-template-rows: 50% 50%;
         margin-right:20px;
