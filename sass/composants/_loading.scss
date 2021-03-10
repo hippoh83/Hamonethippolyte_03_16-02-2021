@@ -22,7 +22,7 @@
         display:flex;
         justify-content:center;
         align-items:center;
-        animation: loader 2.3s ease-in-out both infinite;
+        animation: loader 2.3s ease-in-out both;
         
         & .secondary-color{
             width:60px;
@@ -32,14 +32,14 @@
             display:flex;
             justify-content:center;
             align-items:center;
-            animation: loader 3.5s ease-in-out both infinite;
+            animation: loader 3.5s ease-in-out both;
             animation-delay: 250ms;
             & .tertiary-color{
                 width:35px;
                 height:35px;
                 border-radius:50%;
                 border-top: 5px solid $tertiary-color;
-                animation: loader 2s ease-in-out both infinite;
+                animation: loader 2s ease-in-out both;
                 animation-delay:400ms;
                 
             }
