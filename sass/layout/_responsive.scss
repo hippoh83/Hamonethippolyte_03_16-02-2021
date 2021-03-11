@@ -272,6 +272,16 @@
                 height:600px;
             }
         }
+        .rheader{
+            .heart{
+                width:25px;
+                height:25px;
+                margin-right:25px;
+                margin-top:10px;
+                z-index: 1;
+                transform:scale(1.5);
+            }
+        }
     
         .menu{
             &__list{
