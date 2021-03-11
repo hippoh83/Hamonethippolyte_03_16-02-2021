@@ -60,17 +60,18 @@ table {
 }
 
 html {
-  font-size: 16px;
+  font-size: 62.5%;
   font-family: roboto;
 }
 
 body {
   width: 100%;
   margin: auto;
+  font-size: 1.6rem;
 }
 
 h1 {
-  font-size: 1.65rem;
+  font-size: 2.7rem;
   font-weight: bold;
 }
 
@@ -79,12 +80,12 @@ h1.h1restaurant {
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.76rem;
   font-weight: bold;
 }
 
 p {
-  font-size: 1.08rem;
+  font-size: 1.71rem;
 }
 
 a {
@@ -112,7 +113,7 @@ a:visited {
 
 /**style font-awesome icones**/
 .fas {
-  font-size: 17.6px;
+  font-size: 1.76rem;
   color: #8c8c8c;
 }
 
@@ -138,13 +139,13 @@ a:visited {
 
 .fas.fa-check-circle {
   color: #fff;
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .heart {
   width: 100%;
   height: 100%;
-  font-size: 13.6px;
+  font-size: 53.125%;
 }
 
 .heart svg {
@@ -462,25 +463,25 @@ a:visited {
 }
 
 .footer .footerlogo {
-  font-size: 1.1rem;
+  font-size: 1.76rem;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
 .footer .fafooter {
-  font-size: 12px;
+  font-size: 1.2rem;
   padding-right: 14px;
 }
 
 .footer .fafooter.fa-hands-helping {
   -webkit-transform: rotate(-8deg);
           transform: rotate(-8deg);
-  font-size: 10px;
+  font-size: 1rem;
   padding-right: 11px;
 }
 
 .footer p {
-  font-size: 0.935rem;
+  font-size: 1.43rem;
   padding-left: 22px;
   padding-top: 8px;
 }
@@ -885,53 +886,53 @@ a:visited {
 }
 
 .menu__list--1 {
-  -webkit-animation-delay: 595.33333ms;
-          animation-delay: 595.33333ms;
+  -webkit-animation-delay: 595.66667ms;
+          animation-delay: 595.66667ms;
 }
 
 .menu__list--2 {
-  -webkit-animation-delay: 797.66667ms;
-          animation-delay: 797.66667ms;
+  -webkit-animation-delay: 796.33333ms;
+          animation-delay: 796.33333ms;
 }
 
 .menu__list--3 {
-  -webkit-animation-delay: 996.66667ms;
-          animation-delay: 996.66667ms;
+  -webkit-animation-delay: 996.33333ms;
+          animation-delay: 996.33333ms;
 }
 
 .menu__list--4 {
-  -webkit-animation-delay: 1195.33333ms;
-          animation-delay: 1195.33333ms;
+  -webkit-animation-delay: 1193.33333ms;
+          animation-delay: 1193.33333ms;
 }
 
 .menu__list--5 {
-  -webkit-animation-delay: 1396.33333ms;
-          animation-delay: 1396.33333ms;
+  -webkit-animation-delay: 1398ms;
+          animation-delay: 1398ms;
 }
 
 .menu__list--6 {
-  -webkit-animation-delay: 1596.66667ms;
-          animation-delay: 1596.66667ms;
+  -webkit-animation-delay: 1598.66667ms;
+          animation-delay: 1598.66667ms;
 }
 
 .menu__list--7 {
-  -webkit-animation-delay: 1797.33333ms;
-          animation-delay: 1797.33333ms;
+  -webkit-animation-delay: 1797.66667ms;
+          animation-delay: 1797.66667ms;
 }
 
 .menu__list--8 {
-  -webkit-animation-delay: 1993.66667ms;
-          animation-delay: 1993.66667ms;
+  -webkit-animation-delay: 1999.33333ms;
+          animation-delay: 1999.33333ms;
 }
 
 .menu__list--9 {
-  -webkit-animation-delay: 2193.66667ms;
-          animation-delay: 2193.66667ms;
+  -webkit-animation-delay: 2197.66667ms;
+          animation-delay: 2197.66667ms;
 }
 
 .menu__list--10 {
-  -webkit-animation-delay: 2393.33333ms;
-          animation-delay: 2393.33333ms;
+  -webkit-animation-delay: 2397.66667ms;
+          animation-delay: 2397.66667ms;
 }
 
 .menu__list:hover .spinningok {
@@ -1139,7 +1140,7 @@ a:visited {
 
 @media screen and (min-width: 1024px) {
   html {
-    font-size: 16.8px;
+    font-size: 65.625%;
   }
   .footer {
     text-align: center;
@@ -1240,7 +1241,7 @@ a:visited {
 
 @media screen and (min-width: 1440px) {
   html {
-    font-size: 17.6px;
+    font-size: 75%;
   }
 }
 /*# sourceMappingURL=sass.css.map */

@@ -12,22 +12,22 @@
     }
     
     .footerlogo{
-        font-size:1.1rem;
+        font-size:1.1*(1.6rem);
         padding-top:20px;
         padding-bottom:10px;
     }
     .fafooter{
-        font-size:12px;
+        font-size:1.2rem;
         padding-right: 14px;
         &.fa-hands-helping{
             transform:rotate(-8deg);
-            font-size:10px;
+            font-size:1rem;
             padding-right:11px;
 
         }
     }
     p{
-        font-size:$h3*0.85;
+        font-size:$h3*1.3;
         padding-left:22px;
         padding-top:8px;
     }

@@ -18,20 +18,21 @@ html {
 body{
     width:100%;
     margin:auto;
+    font-size:1.6rem;
 }
 h1{
-    font-size:$h1*1.1;
+    font-size:$h1*1.8;
     font-weight:bold;
     &.h1restaurant{
         font-family:shrikhand;
     }
 }
 h3{
-    font-size:$h3;
+    font-size:$h3*1.6;
     font-weight:bold;
 }
 p{
-    font-size:$p*1.2;
+    font-size:$p*1.9;
 }
 a{
     text-decoration: none;
@@ -56,7 +57,7 @@ a{
 
 
 .fas{
-    font-size:$html-size*1.1;
+    font-size:(1.6rem)*1.1;
     color:darken($lightgrey, 40%);
     &.fa-map-marker-alt{
         color:$black;
@@ -75,7 +76,7 @@ a{
     }
     &.fa-check-circle{
         color:$white;
-        font-size:22px;
+        font-size:2.2rem;
     }
 
 }
